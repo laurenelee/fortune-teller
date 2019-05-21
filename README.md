@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Steps:
 
-Things you may want to cover:
+1. run `rails new rails-fortune-teller --api --skip-active-record`
 
-* Ruby version
+2. cd into new folder and open it up in text editor
 
-* System dependencies
+3. create `fortunes_controller.rb`
+	In there, create `answer`, `caller_input`, and `event` methods
 
-* Configuration
+4. define routes to direct methods  
 
-* Database creation
+5. connect ngrok (to be `BASE_URL`)
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+6. connect Nexmo phone number and voice application to one another  
