@@ -9,11 +9,13 @@ class FortunesController < ActionController::API
         [
             {
                 :action => 'talk',
-                :text => 'Welcome to the Magic Eight Ball hotline. Ask your question and then press 1.'
+                :text => 'Welcome to the Fortune Teller hotline. Ask your question and then press 1.',
+                :bargeIn => true
             },
             {
                 :action => 'input',
-                :eventUrl => ["#{BASE_URL}/caller_input"]
+                :eventUrl => ["#{BASE_URL}/caller_input"],
+                :timeOut => '10'
             }
         ].to_json
     end
