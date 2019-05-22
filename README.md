@@ -2,7 +2,7 @@
 
 Steps:
 
-1. run `rails new rails-fortune-teller --api --skip-active-record`
+1. run `rails new rails-magic-call --api --skip-active-record`
 
 2. cd into new folder and open it up in text editor
 
